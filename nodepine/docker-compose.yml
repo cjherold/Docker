@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  nodepine:
+    build: .
+    ports:
+    - "80:3000"
+    

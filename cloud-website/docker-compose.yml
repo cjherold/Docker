@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  cloudsite:
+    # build . uses Dockerfile to make an image for this service
+    build: .
+    # image: name-of-already-built-image
+    # server is using 3000 inside the container (Host:Container)
+    ports:
+    - "80:3000"
+    
