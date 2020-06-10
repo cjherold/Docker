@@ -1,7 +1,7 @@
 FROM cjherold/nodepine
 
-COPY cloud /home/
-WORKDIR /home/cloud/
+COPY ./cloud /home/
+WORKDIR /home/
 
 RUN npm install
 
