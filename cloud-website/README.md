@@ -1,4 +1,4 @@
-# Not Finished
+# Some info on how to get the cloud site up and running using docker
 ##### https://github.com/cjherold/Docker/tree/master/cloud-website
 
 ## Cli build
